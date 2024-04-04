@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+label,button,.footer > .currency{
+color:green;
+
+font-size: medium;
+font-weight: bolder;
+}
+
+input,select,option{
+display:flex;
+height:3em;
+padding: 0.5em;
+}
+input{
+  height:2em;
+}
+
+h1{
+   font-family: cursive;
+}
+.outerFlex,.innerFlex{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ text-align: start;
+ gap:6px;
+
+}
+.outerFlex{
+  flex-direction: row;
+}
+button{
+  display:flex;
+  justify-self: flex-start;
+  margin-top: 10px;
+  background-color: chartreuse;
+  height: 2.5em;
+  width:8em;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 8px;
+  border:  1px solid white;
+}
+.card {
+  padding: 2em;
+  
+}
+main{
+  background-color: rgb(236, 230, 230);
+}
+.footer > .currency{
+  font-size: 3em;
+}
+.footer > .header{
+font-weight: bold;
+font-size: xx-large;
+}
+.footer{
+  margin-top: 3em;
+  display:flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+img{
+  border-radius: 50%;
+  background-color: chartreuse;
+  color: green;
+  margin-top: 2.3em;
+  width:1.5em;
+  height:1.5em;
+  padding: 0.15em;
+}
